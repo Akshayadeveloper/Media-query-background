@@ -1,0 +1,20 @@
+p{
+  color:#fff;
+}
+/*For width smaller than 400px:*/
+body {
+  background-repeat: no-repeat;
+  background-image: url('IMG-20230507-WA0013.jpg'); 
+  background-size:cover;  
+  background-position: center;
+}
+
+/* For width 400px and larger: */
+@media only screen and (min-width: 400px) {
+  body { 
+     background-image: url('IMG-20230507-WA0014.jpg'); 
+    background-size:cover;
+    background-position: center;
+  }
+}
+
